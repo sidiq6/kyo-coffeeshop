@@ -1,0 +1,2095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>
+    KYO Coffee Shop — More Than Coffee. A Place to Belong.
+  </title>
+
+  <meta
+    name="description"
+    content="Discover KYO Coffee Shop: thoughtful coffee, warm spaces, and food worth staying for."
+  >
+
+  <meta name="theme-color" content="#241812">
+  <meta name="color-scheme" content="light">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="KYO Coffee Shop">
+
+  <meta
+    property="og:title"
+    content="KYO — More Than Coffee. A Place to Belong."
+  >
+
+  <meta
+    property="og:description"
+    content="A thoughtful coffee experience, crafted for the moments worth staying for."
+  >
+
+  <meta
+    property="og:image"
+    content="Pemandangan Coffe shop/pemandangan1.jpg"
+  >
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Manrope:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="preload"
+    as="image"
+    href="Pemandangan Coffe shop/pemandangan1.jpg"
+    fetchpriority="high"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+
+      root.classList.add("has-js", "is-loading");
+
+      window.KYO_LOADING_STARTED = performance.now();
+
+      let finished = false;
+
+      window.KYO_RELEASE_LOADER = () => {
+        if (finished) return;
+
+        finished = true;
+
+        root.classList.remove("is-loading");
+        root.classList.add("loader-complete");
+      };
+
+      window.setTimeout(
+        window.KYO_RELEASE_LOADER,
+        4500
+      );
+    })();
+  </script>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">
+    Skip to content
+  </a>
+
+  <!-- SVG ICONS -->
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="0"
+    height="0"
+    aria-hidden="true"
+    focusable="false"
+    style="position:absolute;overflow:hidden"
+  >
+    <defs>
+
+      <symbol id="i-arrow" viewBox="0 0 24 24">
+        <path
+          d="M5 19 19 5M5 5h14v14"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </symbol>
+
+      <symbol id="i-down" viewBox="0 0 24 30">
+        <path
+          d="M12 3v23m-5-5 5 5 5-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+        />
+      </symbol>
+
+      <symbol id="i-up" viewBox="0 0 24 24">
+        <path
+          d="M12 20V4m-6 6 6-6 6 6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </symbol>
+
+      <symbol id="i-close" viewBox="0 0 24 24">
+        <path
+          d="m5 5 14 14M19 5 5 19"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.3"
+        />
+      </symbol>
+
+      <symbol id="i-plus" viewBox="0 0 24 24">
+        <path
+          d="M12 3v18M3 12h18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+        />
+      </symbol>
+
+      <symbol id="i-expand" viewBox="0 0 24 24">
+        <path
+          d="M14 4h6v6M20 4l-7 7M10 20H4v-6m0 6 7-7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.4"
+        />
+      </symbol>
+
+      <symbol id="i-prev" viewBox="0 0 24 24">
+        <path
+          d="m14 5-7 7 7 7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.4"
+        />
+      </symbol>
+
+      <symbol id="i-next" viewBox="0 0 24 24">
+        <path
+          d="m10 5 7 7-7 7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.4"
+        />
+      </symbol>
+
+      <symbol id="i-star" viewBox="0 0 32 32">
+        <path
+          d="M16 1v30M1 16h30M5.4 5.4l21.2 21.2M5.4 26.6 26.6 5.4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        />
+      </symbol>
+
+      <symbol id="i-cup" viewBox="0 0 40 40">
+        <path
+          d="M7 15h23v11a9 9 0 0 1-9 9h-5a9 9 0 0 1-9-9V15Zm23 2h3a5 5 0 0 1 0 10h-3M5 37h28M13 3c-4 5 4 5 0 10m8-12c-4 5 4 5 0 10m7-8c-3 4 3 4 0 8"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+        />
+      </symbol>
+
+      <symbol id="i-slow" viewBox="0 0 40 40">
+        <circle
+          cx="20"
+          cy="20"
+          r="16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+        />
+
+        <path
+          d="M20 8v12l8 5M3 20h4m26 0h4M20 33v4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+        />
+      </symbol>
+
+      <symbol id="i-share" viewBox="0 0 40 40">
+        <path
+          d="M4 22h32M8 22v10h24V22M11 14a9 9 0 0 1 18 0v8M20 3v4M4 9l3 3m29-3-3 3M15 36h10"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+        />
+      </symbol>
+
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="3"
+          width="18"
+          height="18"
+          rx="5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.65"
+        />
+
+        <circle
+          cx="12"
+          cy="12"
+          r="4.1"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.65"
+        />
+
+        <circle
+          cx="17.7"
+          cy="6.3"
+          r="1.1"
+          fill="currentColor"
+        />
+      </symbol>
+
+      <symbol id="i-tiktok" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.72-.02-.5-.03-1-.01-1.49.18-1.91 1.13-3.74 2.61-4.98 1.68-1.46 4.03-2.15 6.23-1.74.02 1.48-.04 2.96-.04 4.44-1-.32-2.17-.23-3.04.38-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.78-1.6.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.02-.01-8.03.02-12.04z"
+        />
+      </symbol>
+
+    </defs>
+  </svg>
+
+  <!-- LOADING -->
+  <div class="loader" aria-hidden="true">
+
+    <img
+      class="loader-logo"
+      src="logo.jpg"
+      alt=""
+      width="78"
+      height="78"
+    >
+
+    <svg
+      class="coffee-loader"
+      width="130"
+      height="152"
+      viewBox="0 0 130 152"
+      fill="none"
+      aria-hidden="true"
+    >
+      <defs>
+        <clipPath id="cup-clip">
+          <path
+            d="M31 60h66l-4 56a12 12 0 0 1-12 11H47a12 12 0 0 1-12-11Z"
+          />
+        </clipPath>
+      </defs>
+
+      <g
+        stroke="#B58A62"
+        stroke-width="1.3"
+        stroke-linecap="round"
+      >
+        <path class="steam" d="M48 43c-9-11 10-14 1-26"/>
+        <path class="steam" d="M64 40c-9-11 10-14 1-26"/>
+        <path class="steam" d="M80 43c-9-11 10-14 1-26"/>
+      </g>
+
+      <g clip-path="url(#cup-clip)">
+        <g class="coffee-liquid">
+          <path
+            d="M25 77h80v62H25Z"
+            fill="#76513B"
+          />
+
+          <path
+            class="coffee-wave"
+            d="M23 77c15-9 25 8 41 0s29 9 44 0v8H23Z"
+            fill="#B58A62"
+          />
+        </g>
+      </g>
+
+      <path
+        d="M30 60h68l-4 56a13 13 0 0 1-13 12H47a13 13 0 0 1-13-12L30 60Zm68 8h7c16 0 16 26-1 26h-9M27 138h77"
+        stroke="#F8F5EF"
+        stroke-width="1.4"
+      />
+
+      <ellipse
+        cx="64"
+        cy="60"
+        rx="34"
+        ry="4"
+        stroke="#F8F5EF"
+        stroke-width="1.4"
+      />
+    </svg>
+
+    <span class="loader-label">
+      BREWING YOUR EXPERIENCE
+    </span>
+
+    <span class="loader-rule"></span>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner wrap">
+
+      <a
+        class="brand-link"
+        href="#home"
+        aria-label="KYO Coffee Shop home"
+      >
+        <img
+          class="brand-logo"
+          src="logo.jpg"
+          alt="KYO"
+          width="58"
+          height="58"
+        >
+
+        <span class="brand-note">
+          Coffee<br>Shop
+        </span>
+      </a>
+
+      <nav
+        class="desktop-nav"
+        aria-label="Main navigation"
+      >
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#menu">Menu Highlights</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="header-cta" href="#about">
+        Discover KYO
+
+        <svg width="20" height="20" aria-hidden="true">
+          <use href="#i-arrow"></use>
+        </svg>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="navigation-dialog"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION -->
+  <dialog
+    class="nav-dialog"
+    id="navigation-dialog"
+    aria-label="KYO navigation"
+  >
+    <div class="nav-top">
+
+      <a class="brand-link" href="#home" aria-label="KYO home">
+        <img
+          class="brand-logo"
+          src="logo.jpg"
+          alt="KYO"
+          width="58"
+          height="58"
+        >
+      </a>
+
+      <button
+        class="icon-button"
+        type="button"
+        data-menu-close
+        aria-label="Close navigation menu"
+        autofocus
+      >
+        <svg width="20" height="20" aria-hidden="true">
+          <use href="#i-close"></use>
+        </svg>
+      </button>
+
+    </div>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#home"><span>01</span>Home</a>
+      <a href="#about"><span>02</span>About</a>
+      <a href="#experience"><span>03</span>Experience</a>
+      <a href="#menu"><span>04</span>Menu Highlights</a>
+      <a href="#gallery"><span>05</span>Gallery</a>
+      <a href="#contact"><span>06</span>Contact</a>
+    </nav>
+
+    <div class="nav-bottom">
+
+      <span class="eyebrow">
+        Good coffee. Better company.
+      </span>
+
+      <div class="social-icons">
+
+        <a
+          class="social-icon"
+          href="https://www.instagram.com/kyocoffee.id"
+          data-social="instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram @kyocoffee.id, opens in a new tab"
+        >
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="#i-instagram"></use>
+          </svg>
+        </a>
+
+        <a
+          class="social-icon"
+          href="https://www.tiktok.com/@arfvnnn1"
+          data-social="tiktok"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="TikTok @arfvnnn1, opens in a new tab"
+        >
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="#i-tiktok"></use>
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </dialog>
+
+  <main id="main" tabindex="-1">
+
+    <!-- HERO -->
+    <section
+      class="hero"
+      id="home"
+      aria-labelledby="hero-heading"
+    >
+      <div class="hero-photo">
+        <img
+          id="hero-image"
+          src="Pemandangan Coffe shop/pemandangan1.jpg"
+          width="1024"
+          height="1273"
+          alt="The warmly illuminated KYO coffee pavilion"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        >
+      </div>
+
+      <div class="hero-content wrap">
+
+        <span class="eyebrow" data-hero>
+          Welcome to KYO
+        </span>
+
+        <h1
+          id="hero-heading"
+          data-hero
+          style="--delay:100ms"
+        >
+          More Than<br>
+          Coffee.<br>
+          <em>A Place<br>to Belong.</em>
+        </h1>
+
+        <p
+          class="hero-description"
+          data-hero
+          style="--delay:200ms"
+        >
+          A thoughtful coffee experience, crafted
+          for the moments worth staying for.
+        </p>
+
+        <div
+          class="hero-actions"
+          data-hero
+          style="--delay:300ms"
+        >
+          <a class="link-line" href="#about">
+            Explore KYO
+
+            <svg width="20" height="20" aria-hidden="true">
+              <use href="#i-arrow"></use>
+            </svg>
+          </a>
+
+          <a class="quiet-link" href="#experience">
+            Discover Our Space
+          </a>
+        </div>
+
+      </div>
+
+      <span class="hero-edition">
+        COFFEE / CONVERSATION / CONNECTION
+      </span>
+
+      <div class="hero-bottom wrap">
+
+        <p>
+          A little pause.<br>
+          A place of your own.
+        </p>
+
+        <a class="scroll-link" href="#about">
+          Scroll to discover
+
+          <svg width="16" height="24" aria-hidden="true">
+            <use href="#i-down"></use>
+          </svg>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <div class="intro-line">
+      <div class="intro-inner wrap">
+
+        <span class="eyebrow">
+          Coffee, with a sense of place.
+        </span>
+
+        <svg
+          class="intro-star"
+          width="23"
+          height="23"
+          aria-hidden="true"
+        >
+          <use href="#i-star"></use>
+        </svg>
+
+        <p>
+          For the moments in between everything.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section
+      class="section story"
+      id="about"
+      aria-labelledby="story-heading"
+    >
+      <div class="wrap story-grid">
+
+        <div class="story-copy reveal">
+
+          <span class="section-label eyebrow">
+            <span class="section-number">01</span>
+            Our Story
+          </span>
+
+          <h2 id="story-heading">
+            Every Cup<br>
+            Has a <em>Story.</em>
+          </h2>
+
+          <p class="story-text">
+            Some moments ask us to slow down.
+            To take a seat, share a table, and
+            let a conversation unfold. At KYO,
+            coffee is an invitation to do just that.
+          </p>
+
+          <p class="story-text">
+            From a quiet cup on your own to food
+            shared with familiar faces, discover
+            a space for your everyday rituals—and
+            the moments that become a little more.
+          </p>
+
+          <a class="link-line" href="#experience">
+            Find your favourite corner
+
+            <svg width="20" height="20" aria-hidden="true">
+              <use href="#i-arrow"></use>
+            </svg>
+          </a>
+
+        </div>
+
+        <figure class="story-photo reveal">
+
+          <a
+            class="image-frame"
+            href="pemandangan makanan/pemandanganmakanan1.jpg"
+            data-lightbox
+            data-group="space"
+            data-caption="Good coffee. Better company."
+            aria-label="Enlarge coffee at KYO photo"
+          >
+            <img
+              src="pemandangan makanan/pemandanganmakanan1.jpg"
+              width="1011"
+              height="1263"
+              alt="Two patterned coffee cups on a round wooden table"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <span class="image-open">
+              <svg width="16" height="16" aria-hidden="true">
+                <use href="#i-expand"></use>
+              </svg>
+            </span>
+          </a>
+
+          <span class="story-side-note">
+            Good coffee. Better company.
+          </span>
+
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section
+      class="section experience"
+      id="experience"
+      aria-labelledby="experience-heading"
+    >
+      <div class="wrap">
+
+        <div class="section-heading reveal">
+
+          <div>
+            <span class="section-label eyebrow">
+              <span class="section-number">02</span>
+              The KYO Experience
+            </span>
+
+            <h2 id="experience-heading">
+              A Space Worth<br>
+              <em>Staying For.</em>
+            </h2>
+          </div>
+
+          <p>
+            Warm light. Thoughtful details.
+            A favourite corner waiting to become
+            part of your day.
+          </p>
+
+        </div>
+
+        <div class="space-grid">
+
+          <figure class="space-main reveal">
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan4.jpg"
+              data-lightbox
+              data-group="space"
+              data-caption="An open invitation to settle in"
+              aria-label="Enlarge KYO space photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan4.jpg"
+                width="1006"
+                height="1277"
+                alt="The open KYO coffee pavilion with warm lighting"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>An open invitation to settle in</span>
+              <span>The space</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="space-detail reveal">
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan2.jpg"
+              data-lightbox
+              data-group="space"
+              data-caption="Make yourself at home"
+              aria-label="Enlarge KYO seating photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan2.jpg"
+                width="1010"
+                height="1262"
+                alt="A green stone table and mustard-coloured chairs"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>Make yourself at home</span>
+              <span>Your corner</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="space-lantern reveal">
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan3.jpg"
+              data-lightbox
+              data-group="space"
+              data-caption="A character all its own"
+              aria-label="Enlarge KYO lantern photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan3.jpg"
+                width="1031"
+                height="1281"
+                alt="A colourful illuminated KYO lantern"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>A character all its own</span>
+              <span>The details</span>
+            </figcaption>
+
+          </figure>
+
+          <div class="space-note reveal">
+
+            <span class="eyebrow">
+              Stay for a moment. Or a little longer.
+            </span>
+
+            <p>
+              There is a kind of comfort in
+              finding <em>your place.</em>
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="space-bottom reveal">
+
+          <p>
+            A catch-up, a quiet pause, or simply
+            a good cup of coffee. Make a little
+            room for yourself.
+          </p>
+
+          <figure>
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan5.jpg"
+              data-lightbox
+              data-group="space"
+              data-caption="Room for another conversation"
+              aria-label="Enlarge guests at KYO photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan5.jpg"
+                width="986"
+                height="1283"
+                alt="Guests sharing tables in KYO's warmly lit space"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>Room for another conversation</span>
+              <span>Together at KYO</span>
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COFFEE MOMENTS -->
+    <section
+      class="coffee-interlude"
+      aria-labelledby="coffee-heading"
+    >
+      <div class="wrap coffee-grid">
+
+        <figure class="reveal">
+
+          <a
+            class="image-frame"
+            href="pemandangan makanan/pemandanganmakanan2.jpg"
+            data-lightbox
+            data-group="coffee"
+            data-caption="The pleasure of a familiar ritual"
+            aria-label="Enlarge KYO latte art photo"
+          >
+            <img
+              src="pemandangan makanan/pemandanganmakanan2.jpg"
+              width="1016"
+              height="1285"
+              alt="A cup of coffee with latte art on a green stone table"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+
+        </figure>
+
+        <div class="coffee-copy reveal">
+
+          <span class="eyebrow">
+            The moments in between
+          </span>
+
+          <h2 id="coffee-heading">
+            A good cup.<br>
+            A <em>gentler</em> pace.
+          </h2>
+
+          <p>
+            A small ritual. A little room to
+            breathe. A moment to call your own.
+          </p>
+
+          <svg
+            class="small-ornament"
+            width="28"
+            height="28"
+            aria-hidden="true"
+          >
+            <use href="#i-star"></use>
+          </svg>
+
+        </div>
+
+        <figure class="reveal">
+
+          <a
+            class="image-frame"
+            href="pemandangan makanan/pemandanganmakanan7.jpg"
+            data-lightbox
+            data-group="coffee"
+            data-caption="Find your coffee moment"
+            aria-label="Enlarge iced coffee photo"
+          >
+            <img
+              src="pemandangan makanan/pemandanganmakanan7.jpg"
+              width="983"
+              height="999"
+              alt="An iced coffee in a tall glass on a wooden table"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- MENU HIGHLIGHTS -->
+    <section
+      class="section menu-section"
+      id="menu"
+      aria-labelledby="menu-heading"
+    >
+      <div class="wrap">
+
+        <div class="section-heading menu-heading reveal">
+
+          <div>
+            <span class="section-label eyebrow">
+              <span class="section-number">03</span>
+              Menu Highlights
+            </span>
+
+            <h2 id="menu-heading">
+              A Taste<br>
+              of <em>KYO.</em>
+            </h2>
+          </div>
+
+          <div class="heading-note">
+
+            <p>
+              Something savoury, something sweet.
+              A few reasons to make a little
+              more time at the table.
+            </p>
+
+            <a class="link-line" href="#selection">
+              View Our Selection
+
+              <svg width="20" height="20" aria-hidden="true">
+                <use href="#i-arrow"></use>
+              </svg>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="food-featured">
+
+          <figure class="reveal">
+
+            <span class="food-index">
+              01 / A TASTE OF KYO
+            </span>
+
+            <a
+              class="image-frame"
+              href="Menu makanan kyo/gyutanbutterrice.jpg"
+              data-lightbox
+              data-group="selection"
+              data-caption="Gyutan Butter Rice"
+              aria-label="Enlarge Gyutan Butter Rice photo"
+            >
+              <img
+                src="Menu makanan kyo/gyutanbutterrice.jpg"
+                width="990"
+                height="1322"
+                alt="Gyutan Butter Rice topped with an egg"
+                loading="lazy"
+                decoding="async"
+              >
+            </a>
+
+            <figcaption>
+              <span class="food-kicker">
+                A savoury moment
+              </span>
+
+              <h3>Gyutan Butter Rice</h3>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <span class="food-index">
+              02 / A TASTE OF KYO
+            </span>
+
+            <a
+              class="image-frame"
+              href="Menu makanan kyo/creamytrufflemushroom.jpg"
+              data-lightbox
+              data-group="selection"
+              data-caption="Creamy Truffle Mushroom"
+              aria-label="Enlarge Creamy Truffle Mushroom photo"
+            >
+              <img
+                src="Menu makanan kyo/creamytrufflemushroom.jpg"
+                width="990"
+                height="1251"
+                alt="Creamy Truffle Mushroom pasta on a white plate"
+                loading="lazy"
+                decoding="async"
+              >
+            </a>
+
+            <figcaption>
+              <span class="food-kicker">
+                Comfort, beautifully served
+              </span>
+
+              <h3>Creamy Truffle Mushroom</h3>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <span class="food-index">
+              03 / A TASTE OF KYO
+            </span>
+
+            <a
+              class="image-frame"
+              href="Menu makanan kyo/berry&amp;crèmetoast.jpg"
+              data-lightbox
+              data-group="selection"
+              data-caption="Berry &amp; Crème Toast"
+              aria-label="Enlarge Berry and Crème Toast photo"
+            >
+              <img
+                src="Menu makanan kyo/berry&amp;crèmetoast.jpg"
+                width="990"
+                height="1320"
+                alt="Toast topped with berry sauce and cream"
+                loading="lazy"
+                decoding="async"
+              >
+            </a>
+
+            <figcaption>
+              <span class="food-kicker">
+                Something a little sweet
+              </span>
+
+              <h3>Berry &amp; Crème Toast</h3>
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+        <!-- FULL SELECTION -->
+        <details class="selection-details" id="selection">
+
+          <summary>
+            <span>More to discover.</span>
+
+            <span class="summary-action">
+              <span>Explore our selection</span>
+
+              <svg width="22" height="22" aria-hidden="true">
+                <use href="#i-plus"></use>
+              </svg>
+            </span>
+          </summary>
+
+          <div class="food-grid">
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/loadedfries.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Loaded Fries"
+                aria-label="Enlarge Loaded Fries photo"
+              >
+                <img
+                  src="Menu makanan kyo/loadedfries.jpg"
+                  width="990"
+                  height="1322"
+                  alt="Loaded fries in a paper-lined basket"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">To share</span>
+                <h3>Loaded Fries</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/caesarsalad.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Caesar Salad"
+                aria-label="Enlarge Caesar Salad photo"
+              >
+                <img
+                  src="Menu makanan kyo/caesarsalad.jpg"
+                  width="990"
+                  height="1237"
+                  alt="Caesar salad with leafy greens and croutons"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">Fresh &amp; light</span>
+                <h3>Caesar Salad</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/aromaticbeeftonguefriedrice.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Aromatic Beef Tongue Fried Rice"
+                aria-label="Enlarge Aromatic Beef Tongue Fried Rice photo"
+              >
+                <img
+                  src="Menu makanan kyo/aromaticbeeftonguefriedrice.jpg"
+                  width="990"
+                  height="1237"
+                  alt="Beef tongue fried rice topped with an egg"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">Rice &amp; comfort</span>
+                <h3>Aromatic Beef Tongue Fried Rice</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/gochujangchickenmac&amp;Cheese.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Gochujang Chicken Mac &amp; Cheese"
+                aria-label="Enlarge Gochujang Chicken Mac and Cheese photo"
+              >
+                <img
+                  src="Menu makanan kyo/gochujangchickenmac&amp;Cheese.jpg"
+                  width="990"
+                  height="1256"
+                  alt="Gochujang Chicken Mac and Cheese on an oval plate"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">Pasta &amp; comfort</span>
+                <h3>Gochujang Chicken Mac &amp; Cheese</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/steaksandwich.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Steak Sandwich"
+                aria-label="Enlarge Steak Sandwich photo"
+              >
+                <img
+                  src="Menu makanan kyo/steaksandwich.jpg"
+                  width="990"
+                  height="1239"
+                  alt="Steak Sandwich served with a side salad"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">A savoury bite</span>
+                <h3>Steak Sandwich</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/chickenkatsubakedrice.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Chicken Katsu Baked Rice"
+                aria-label="Enlarge Chicken Katsu Baked Rice photo"
+              >
+                <img
+                  src="Menu makanan kyo/chickenkatsubakedrice.jpg"
+                  width="990"
+                  height="1231"
+                  alt="Chicken Katsu Baked Rice in a baking dish"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">Rice &amp; comfort</span>
+                <h3>Chicken Katsu Baked Rice</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/trufflemushroomquesadilla.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Truffle Mushroom Quesadilla"
+                aria-label="Enlarge Truffle Mushroom Quesadilla photo"
+              >
+                <img
+                  src="Menu makanan kyo/trufflemushroomquesadilla.jpg"
+                  width="990"
+                  height="1220"
+                  alt="Truffle Mushroom Quesadilla sliced into wedges"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">To share</span>
+                <h3>Truffle Mushroom Quesadilla</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/croquettementai.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Croquette Mentai"
+                aria-label="Enlarge Croquette Mentai photo"
+              >
+                <img
+                  src="Menu makanan kyo/croquettementai.jpg"
+                  width="990"
+                  height="1343"
+                  alt="Golden Croquette Mentai pieces on a white plate"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">Small bites</span>
+                <h3>Croquette Mentai</h3>
+              </figcaption>
+
+            </figure>
+
+            <figure>
+
+              <a
+                class="image-frame"
+                href="Menu makanan kyo/steakfrites.jpg"
+                data-lightbox
+                data-group="selection"
+                data-caption="Steak Frites"
+                aria-label="Enlarge Steak Frites photo"
+              >
+                <img
+                  src="Menu makanan kyo/steakfrites.jpg"
+                  width="990"
+                  height="1203"
+                  alt="Steak Frites served with golden fries"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+
+              <figcaption>
+                <span class="food-kicker">A savoury moment</span>
+                <h3>Steak Frites</h3>
+              </figcaption>
+
+            </figure>
+
+          </div>
+        </details>
+
+        <p class="selection-note">
+          A visual introduction to KYO’s selection.
+          Discover more through our Instagram.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section
+      class="section gallery-section"
+      id="gallery"
+      aria-labelledby="gallery-heading"
+    >
+      <div class="wrap">
+
+        <div class="section-heading gallery-heading reveal">
+
+          <div>
+            <span class="section-label eyebrow">
+              <span class="section-number">04</span>
+              The Gallery
+            </span>
+
+            <h2 id="gallery-heading">
+              Life, at <em>KYO.</em>
+            </h2>
+          </div>
+
+          <div class="gallery-aside">
+
+            <span class="eyebrow">
+              A collection of little moments
+            </span>
+
+            <p>
+              The space, the table, and everything
+              that makes a moment feel like KYO.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="gallery-grid">
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan5.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="Room for conversation"
+              aria-label="Enlarge Room for conversation photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan5.jpg"
+                width="986"
+                height="1283"
+                alt="Guests enjoying the warmly lit KYO space"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>Room for conversation</span>
+              <span>Our space</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="pemandangan makanan/pemandanganmakanan6.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="A little pause, well spent"
+              aria-label="Enlarge coffee and toast photo"
+            >
+              <img
+                src="pemandangan makanan/pemandanganmakanan6.jpg"
+                width="989"
+                height="1007"
+                alt="Iced coffee and cream-topped toast on a sunlit table"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>A little pause, well spent</span>
+              <span>Coffee &amp; company</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="pemandangan makanan/pemandanganmakanan3.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="Comfort on the table"
+              aria-label="Enlarge pasta on the table photo"
+            >
+              <img
+                src="pemandangan makanan/pemandanganmakanan3.jpg"
+                width="1036"
+                height="1295"
+                alt="A plate of pasta on a dark wooden table"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>Comfort on the table</span>
+              <span>At the table</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="pemandangan makanan/pemandanganmakanan4.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="A different kind of work break"
+              aria-label="Enlarge coffee beside a laptop photo"
+            >
+              <img
+                src="pemandangan makanan/pemandanganmakanan4.jpg"
+                width="1009"
+                height="1261"
+                alt="A patterned cup of coffee beside a laptop"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>A different kind of work break</span>
+              <span>Coffee moments</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="pemandangan makanan/pemandangan5.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="A table for your next moment"
+              aria-label="Enlarge round coffee table photo"
+            >
+              <img
+                src="pemandangan makanan/pemandangan5.jpg"
+                width="994"
+                height="1242"
+                alt="Coffee and a small plate on a round wooden table"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>A table for your next moment</span>
+              <span>Slow moments</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="pemandangan makanan/pemandanganmakanan8.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="The sweeter side of KYO"
+              aria-label="Enlarge cream toast photo"
+            >
+              <img
+                src="pemandangan makanan/pemandanganmakanan8.jpg"
+                width="941"
+                height="988"
+                alt="Toast topped with piped cream on a warm-coloured plate"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>The sweeter side of KYO</span>
+              <span>A sweet finish</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="pemandangan makanan/pemandangan9.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="Coffee. A bite. A little time."
+              aria-label="Enlarge coffee and pastry photo"
+            >
+              <img
+                src="pemandangan makanan/pemandangan9.jpg"
+                width="989"
+                height="1038"
+                alt="Coffee and a pastry on a light-coloured table"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>Coffee. A bite. A little time.</span>
+              <span>Coffee &amp; company</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan3.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="The details make the space"
+              aria-label="Enlarge KYO lantern detail photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan3.jpg"
+                width="1031"
+                height="1281"
+                alt="A colourful KYO lantern on the counter"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>The details make the space</span>
+              <span>KYO details</span>
+            </figcaption>
+
+          </figure>
+
+          <figure class="reveal">
+
+            <a
+              class="image-frame"
+              href="Pemandangan Coffe shop/pemandangan1.jpg"
+              data-lightbox
+              data-group="gallery"
+              data-caption="An invitation to stay a little"
+              aria-label="Enlarge KYO pavilion photo"
+            >
+              <img
+                src="Pemandangan Coffe shop/pemandangan1.jpg"
+                width="1024"
+                height="1273"
+                alt="The illuminated KYO coffee pavilion"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <span class="image-open">
+                <svg width="16" height="16" aria-hidden="true">
+                  <use href="#i-expand"></use>
+                </svg>
+              </span>
+            </a>
+
+            <figcaption class="caption">
+              <span>An invitation to stay a little</span>
+              <span>Our space</span>
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+        <p class="gallery-invitation">
+          <svg width="16" height="16" aria-hidden="true">
+            <use href="#i-expand"></use>
+          </svg>
+
+          Take a closer look. Tap any photograph.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- WHY KYO -->
+    <section
+      class="section why"
+      aria-labelledby="why-heading"
+    >
+      <div class="wrap">
+
+        <div class="why-top reveal">
+
+          <span class="eyebrow">
+            The KYO way
+          </span>
+
+          <h2 id="why-heading">
+            Little things.<br>
+            <em>A lasting feeling.</em>
+          </h2>
+
+        </div>
+
+        <div class="why-list">
+
+          <article class="why-item reveal">
+
+            <svg width="34" height="34" aria-hidden="true">
+              <use href="#i-cup"></use>
+            </svg>
+
+            <h3>
+              Thoughtful Coffee Experience
+            </h3>
+
+            <p>
+              A cup to enjoy at your own pace.
+              A familiar ritual with room for
+              something new.
+            </p>
+
+          </article>
+
+          <article class="why-item reveal">
+
+            <svg width="34" height="34" aria-hidden="true">
+              <use href="#i-slow"></use>
+            </svg>
+
+            <h3>
+              A Space to<br>Slow Down
+            </h3>
+
+            <p>
+              Step away from the rush. Settle
+              into a corner, take a breath,
+              and let the day unfold.
+            </p>
+
+          </article>
+
+          <article class="why-item reveal">
+
+            <svg width="34" height="34" aria-hidden="true">
+              <use href="#i-share"></use>
+            </svg>
+
+            <h3>
+              Moments Worth Sharing
+            </h3>
+
+            <p>
+              A table, a conversation, and a
+              little time together. Sometimes,
+              that is everything.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section
+      class="section contact"
+      id="contact"
+      aria-labelledby="contact-heading"
+    >
+      <div class="wrap">
+
+        <div class="contact-top">
+
+          <div class="reveal">
+
+            <span class="section-label eyebrow">
+              <span>05</span>
+              Come a little closer
+            </span>
+
+            <h2 id="contact-heading">
+              Your Next Coffee Moment<br>
+              <em>Starts Here.</em>
+            </h2>
+
+          </div>
+
+          <div class="contact-note reveal">
+
+            <p>
+              Find a little inspiration for
+              your next visit. Follow our latest
+              moments, or say hello on Instagram.
+            </p>
+
+            <a
+              class="link-line"
+              href="https://www.instagram.com/kyocoffee.id"
+              data-social="instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Connect with KYO
+
+              <svg width="20" height="20" aria-hidden="true">
+                <use href="#i-arrow"></use>
+              </svg>
+
+              <span class="sr-only">
+                Opens in a new tab
+              </span>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="contact-socials">
+
+          <a
+            class="contact-social"
+            href="https://www.instagram.com/kyocoffee.id"
+            data-social="instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Instagram @kyocoffee.id, opens in a new tab"
+          >
+            <svg width="26" height="26" aria-hidden="true">
+              <use href="#i-instagram"></use>
+            </svg>
+
+            <span>
+              <span class="social-platform">Instagram</span>
+              <span class="social-handle">@kyocoffee.id</span>
+            </span>
+
+            <svg width="20" height="20" aria-hidden="true">
+              <use href="#i-arrow"></use>
+            </svg>
+          </a>
+
+          <a
+            class="contact-social"
+            href="https://www.tiktok.com/@arfvnnn1"
+            data-social="tiktok"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit TikTok @arfvnnn1, opens in a new tab"
+          >
+            <svg width="26" height="26" aria-hidden="true">
+              <use href="#i-tiktok"></use>
+            </svg>
+
+            <span>
+              <span class="social-platform">TikTok</span>
+              <span class="social-handle">@arfvnnn1</span>
+            </span>
+
+            <svg width="20" height="20" aria-hidden="true">
+              <use href="#i-arrow"></use>
+            </svg>
+          </a>
+
+        </div>
+
+        <div
+          class="business-info"
+          id="business-info"
+          hidden
+        ></div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+
+          <a href="#home" aria-label="KYO Coffee Shop home">
+            <img
+              class="brand-logo"
+              src="logo.jpg"
+              alt="KYO Coffee Shop"
+              width="74"
+              height="74"
+              loading="lazy"
+            >
+          </a>
+
+          <p>
+            More than coffee.<br>
+            A place to belong.
+          </p>
+
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#menu">Menu Highlights</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-follow">
+
+          <span class="eyebrow">
+            Find us in your everyday
+          </span>
+
+          <div class="social-icons">
+
+            <a
+              class="social-icon"
+              href="https://www.instagram.com/kyocoffee.id"
+              data-social="instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram @kyocoffee.id, opens in a new tab"
+            >
+              <svg width="20" height="20" aria-hidden="true">
+                <use href="#i-instagram"></use>
+              </svg>
+            </a>
+
+            <a
+              class="social-icon"
+              href="https://www.tiktok.com/@arfvnnn1"
+              data-social="tiktok"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok @arfvnnn1, opens in a new tab"
+            >
+              <svg width="20" height="20" aria-hidden="true">
+                <use href="#i-tiktok"></use>
+              </svg>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p>
+          © <span data-year>2026</span>
+          KYO Coffee Shop. All Rights Reserved.
+        </p>
+
+        <a class="back-top" href="#home">
+          Back to the beginning
+
+          <svg width="15" height="15" aria-hidden="true">
+            <use href="#i-up"></use>
+          </svg>
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- PHOTO LIGHTBOX -->
+  <dialog
+    class="lightbox"
+    id="lightbox"
+    aria-label="KYO photo viewer"
+    aria-describedby="lightbox-caption"
+  >
+    <div class="lightbox-top">
+
+      <span class="eyebrow">
+        KYO / A closer look
+      </span>
+
+      <button
+        class="icon-button"
+        type="button"
+        data-lightbox-close
+        aria-label="Close photo viewer"
+        autofocus
+      >
+        <svg width="20" height="20" aria-hidden="true">
+          <use href="#i-close"></use>
+        </svg>
+      </button>
+
+    </div>
+
+    <figure class="lightbox-figure">
+
+      <img
+        class="lightbox-image"
+        alt=""
+        decoding="async"
+      >
+
+      <p class="lightbox-error" hidden>
+        This photograph could not be displayed.
+
+        <a
+          href="Pemandangan Coffe shop/pemandangan1.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open original photo
+        </a>
+      </p>
+
+      <figcaption
+        class="lightbox-caption"
+        id="lightbox-caption"
+        aria-live="polite"
+      ></figcaption>
+
+    </figure>
+
+    <div class="lightbox-controls">
+
+      <button
+        class="icon-button lightbox-prev"
+        type="button"
+        data-lightbox-prev
+        aria-label="Previous photo"
+      >
+        <svg width="20" height="20" aria-hidden="true">
+          <use href="#i-prev"></use>
+        </svg>
+      </button>
+
+      <span
+        class="lightbox-count"
+        aria-live="polite"
+      ></span>
+
+      <span class="lightbox-hint">
+        Use ← → to explore · Escape to close
+      </span>
+
+      <button
+        class="icon-button lightbox-next"
+        type="button"
+        data-lightbox-next
+        aria-label="Next photo"
+      >
+        <svg width="20" height="20" aria-hidden="true">
+          <use href="#i-next"></use>
+        </svg>
+      </button>
+
+    </div>
+  </dialog>
+
+</body>
+</html>
